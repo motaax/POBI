@@ -26,7 +26,7 @@ int main() {
         pares += min(b.second.first, b.second.second);
     }
 
-    cout << pares << endl;
+    cout << pares << "\n";
 
     return 0;
 }
