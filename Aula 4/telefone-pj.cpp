@@ -6,6 +6,7 @@ int main() {
     string s;
     cin >> s;
 
+    //forEach
     for (char c : s) {
         if (c == '-') {
             cout << '-';
