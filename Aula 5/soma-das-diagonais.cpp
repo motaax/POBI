@@ -10,13 +10,13 @@ int main() {
         }
     }
         
-    int dp = 0, ds = 0;
+    int digp = 0, digs = 0;
 
     for(int i = 0; i < 3; i++) {
-        dp += mat[i][i];
-        ds += mat[i][2 - i];
+        digp += mat[i][i];
+        digs += mat[i][2 - i];
     }
 
-    cout << "Diagonal principal: " << dp << '\n';
-    cout << "Diagonal secundaria: " << ds << '\n';
+    cout << "Diagonal principal: " << digp << '\n';
+    cout << "Diagonal secundaria: " << digs << '\n';
 }
