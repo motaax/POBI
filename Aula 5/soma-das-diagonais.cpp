@@ -8,7 +8,6 @@ int main() {
         for(int j = 0; j < 3; j++) {
             cin >> mat[i][j];
         }
-            
     }
         
     int dp = 0, ds = 0;
