@@ -8,14 +8,14 @@ int main() {
     int x;
 
     for(int i = 0; i < n; i++) {
-        int consulta;
-        cin >> consulta;
+        int cons;
+        cin >> cons;
 
-        if(st.find(consulta) == st.end()) {
-            st.insert(consulta);
+        if(st.find(cons) == st.end()) {
+            st.insert(cons);
             fab += 2;
         } else {
-            st.erase(consulta);
+            st.erase(cons);
         }
     }
 
