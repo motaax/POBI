@@ -18,8 +18,7 @@ int main() {
     for (int i = 0; i < m;i++) {
         int y;
         cin >> y;
-
-
+        
         auto it = falta.find(y);
 
         if (it != falta.end()) {
