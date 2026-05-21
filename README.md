@@ -1,1 +1,1 @@
-# Códigos preparatórios para a OBI
+# Códigos das aulas preparatórias para a Olimpíada Brasileira de Informática(OBI)
